@@ -18,4 +18,7 @@ export default defineConfig({
     },
     postcss: "./postcss.config.cjs",
   },
+  optimizeDeps: {
+    exclude: ["@ffmpeg/ffmpeg"],
+  },
 });
